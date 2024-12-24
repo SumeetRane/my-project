@@ -28,6 +28,9 @@ jobs:
         java-version: 17
         distribution: 'temurin'
 
+    - name: Make gradlew executable
+      run: chmod +x ./gradlew
+
     # - name: Set execute permissions for gradlew
     #   run: chmod +x gradlew
 
